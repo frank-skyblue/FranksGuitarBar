@@ -1,0 +1,57 @@
+/* container */
+.box {
+  /* Margin Padding*/
+  margin: auto;
+  padding: 0;
+
+  /* Sizing */
+  height: auto;
+  width: 80%;
+}
+/* disable click */
+.isDisabled {
+  pointer-events: none;
+}
+/* text alignment */
+.ta-center {
+  text-align: center;
+}
+.ta-left {
+  text-align: left;
+}
+/* list style */
+.liststyle-none a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.liststyle-none ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* border styling */
+.bdr {
+  border: 3px solid #222;
+}
+.bdr-left {
+  border-left: 3px solid #222;
+}
+.bdr-right {
+  border-right: 3px solid #222;
+}
+.bdr-bottom {
+  border-bottom: 3px solid #222;
+}
+.bdr-top {
+  border-top: 3px solid #222;
+}
+.bdr-space {
+  /* Margin Padding*/
+  margin: auto;
+  padding: 0;
+
+  /* Sizing */
+  height: auto;
+  width: 96%;
+}

@@ -1,0 +1,85 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1365px) {
+  .wrapper {
+    height: 13%;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  /* Branding */
+  .brand {
+    /* grid */
+    display: grid;
+    grid-template-columns: 1fr 4fr 0.7fr;
+    grid-gap: 1rem;
+    align-items: center;
+
+    /* Margin Padding*/
+    margin: 0;
+    padding: 0 0.5rem;
+
+    /* Sizing */
+    height: 100%;
+    max-width: 100%;
+  }
+  .brand .logo {
+    display: inline;
+
+    /* Margin Padding*/
+    margin: 0;
+    padding: 0;
+  }
+  .brand .title {
+    display: inline;
+
+    /* font */
+    font-family: "Indie Flower", italic;
+    font-size: 1.7em;
+  }
+  .brand .side-nav {
+    position: relative;
+  }
+  .brand .side-nav .dropdown {
+  }
+  .brand .side-nav .navagation-mobile {
+    display: none;
+  }
+  .brand .navagation {
+    display: none;
+  }
+  /* content */
+  .body {
+    /* Background and Fonts */
+    background: #c3efdb;
+
+    /* Margin Padding*/
+    margin: auto;
+    padding: 0;
+    position: relative;
+    overflow: scroll;
+
+    /* Sizing */
+    height: 80%;
+    width: 95%;
+  }
+  .video {
+    display: none;
+  }
+  .content {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+  }
+  .content-lessons li {
+    margin: 1rem;
+  }
+  .side-filter {
+    margin: 1rem 0;
+  }
+  .side-filter ul {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

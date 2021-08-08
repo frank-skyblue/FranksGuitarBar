@@ -1,0 +1,73 @@
+/* Global Style */
+html {
+  /* Sizing */
+  height: 100%;
+  width: 100%;
+}
+body {
+  /* Background and Fonts */
+  background: #80ced6;
+  font-family: "Gotu", sans-serif;
+
+  /* Sizing */
+  height: 100%;
+  width: 100%;
+
+  /* Margin Padding*/
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+i {
+  color: #222;
+  opacity: 80%;
+}
+.body-grid {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.primary {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.aside {
+  display: none;
+}
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.title a {
+  text-decoration: none;
+  color: #444;
+}
+/* Social media tags */
+.social-media {
+  margin: 0.1rem;
+  padding: 0;
+
+  /* Sizing */
+  height: 10%;
+  width: 95%;
+}
+.social-media ul {
+  /* text */
+  line-height: 1.2;
+  font-size: 0.85rem;
+
+  /* Margin Padding*/
+  margin: 0;
+  padding: 0;
+}
+
+.social-media a {
+  color: inherit;
+}

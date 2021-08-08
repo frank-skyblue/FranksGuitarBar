@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Frank's Guitar Bar</title>
+    <!-- Google Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/22d4463cd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Local Style -->
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/Styles/main.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/desktop.css" />
+  </head>
+  <body>
+    <div class="body-grid">
+      <!-- Logo and Name -->
+      <div class="wrapper">
+        <header class="brand">
+          <img src="img/logo.png" alt="logo" class="logo" />
+          <div class="title ta-center">
+            <a href="index.html">Frank's Guitar Bar</a>
+          </div>
+          <div class="side-nav">
+            <a href="index.html" class="dropdown"
+              ><i class="fas fa-bars fa-2x"></i
+            ></a>
+            <nav class="navagation-mobile liststyle-none">
+              <ul>
+                <li><a href="index.html" class=""> Home </a></li>
+                <li><a href="songs.html" class=""> Songs/Lessons </a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--navagation-->
+          <nav class="navagation liststyle-none">
+            <ul>
+              <li><a href="index.html" class=""> Home </a></li>
+              <li><a href="songs.html" class=""> Songs/Lessons </a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <main class="body">
+        <section class="content ta-center liststyle-none">
+          <h1 class="liststyle-none"><a href="#">Songs</a></h1>
+          <div class="grid-songs">
+            <div class="side-filter ta-left">
+              <ul>
+                <li class="difficulty-area">
+                  <b>Difficulty</b>
+                  <form>
+                    <input type="checkbox" id="easy" name="easy" checked />
+                    <label for="easy"> Easy</label><br />
+                    <input
+                      type="checkbox"
+                      id="intermediate"
+                      name="intermediate"
+                      checked
+                    />
+                    <label for="intermediate"> Intermediate</label><br />
+                    <input
+                      type="checkbox"
+                      id="difficult"
+                      name="difficult"
+                      checked
+                    />
+                    <label for="difficult"> Difficult</label><br /><br />
+                  </form>
+                </li>
+                <li class="genre-area">
+                  <b>Genre</b>
+                  <form>
+                    <input
+                      type="checkbox"
+                      id="blues"
+                      name="blues "
+                      value="Blues"
+                      checked
+                    />
+                    <label for="blues"> Blues</label><br />
+                    <input
+                      type="checkbox"
+                      id="pop"
+                      name="pop"
+                      value="Popular"
+                      checked
+                    />
+                    <label for="pop"> Popular</label><br />
+                    <input
+                      type="checkbox"
+                      id="others"
+                      name="others"
+                      value="Others"
+                    />
+                    <label for="others"> Others</label><br /><br />
+                  </form>
+                </li>
+              </ul>
+            </div>
+            <div class="content-lessons">
+              <ul class="lessons-catalog">
+                <li id="1">
+                  <a
+                    href="https://www.youtube.com/watch?v=g9q-MjbM3uk"
+                    target="_blank"
+                    >Can't Help Falling In Love - Elvis Presley</a
+                  >
+                </li>
+                <li id="2">
+                  <a
+                    href="https://www.youtube.com/watch?v=dO2Zu1rBUv8"
+                    target="_blank"
+                  >
+                    St. Louis Blues - Bessie Smith
+                  </a>
+                </li>
+                <li id="3">
+                  <a href="#"> Deep River Blues - Doc Watson (Coming soon)</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <h1 class="liststyle-none"><a href="#">Lessons</a></h1>
+          <div class="grid-songs">
+            <div class="side-filter ta-left"></div>
+            <div class="content-lessons">
+              <ul class="lessons-catalog">
+                <li>Lessons Coming Soon!</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section class="social-media liststyle-none">
+          <ul>
+            <li>
+              <i class="fab fa-facebook-square"></i>
+              <a href="#">Frank'sGuitarBar</a>
+            </li>
+            <li>
+              <i class="fab fa-youtube-square"></i>
+              <a
+                href="https://www.youtube.com/channel/UCAkfOyV3UrezFCCIFQ4CMXg"
+                target="_blank"
+                >Frank'sGuitarGar</a
+              >
+            </li>
+            <li>
+              <i class="fab fa-instagram-square"></i>
+              <a href="#">@Franksguitarbar</a>
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+    <!-- Script -->
+    <script src="./songs.js"></script>
+  </body>
+</html>

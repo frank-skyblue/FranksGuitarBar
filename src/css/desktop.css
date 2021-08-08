@@ -1,0 +1,157 @@
+/* Extra large devices (large laptops and desktops, 1366px and up) */
+@media only screen and (min-width: 1366px) {
+  /* Branding */
+  .brand {
+    /* grid */
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 9fr;
+    grid-gap: 1rem;
+    align-items: center;
+
+    /* Margin Padding*/
+    margin: 0;
+    padding: 0;
+
+    /* Sizing */
+    height: 100%;
+    max-width: 100%;
+  }
+  .brand .logo {
+    display: inline;
+
+    /* Margin Padding*/
+    margin: 0;
+    padding: 0;
+  }
+  .brand .title {
+    display: inline;
+    text-align: center;
+
+    /* font */
+    font-family: "Indie Flower", italic;
+    font-size: 1.5rem;
+  }
+  .brand .side-nav {
+    display: none;
+  }
+  .brand .navagation {
+    display: inline;
+  }
+  /* navagation */
+  .navagation {
+    margin-left: 1rem;
+    margin-top: 3px;
+  }
+
+  .navagation li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+  }
+
+  .navagation a:hover {
+    color: #000;
+  }
+
+  .navagation a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+
+    position: absolute;
+    top: 5px;
+
+    transition: all ease-in-out 200ms;
+  }
+
+  .navagation a:hover::before {
+    width: 100%;
+  }
+  /* content */
+  .wrapper {
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    padding: 0;
+  }
+  .body {
+    /* Background and Fonts */
+    background: #c3efdb;
+
+    /* Margin Padding*/
+    margin: auto;
+    padding-top: 1px;
+
+    /* Sizing */
+    height: 80%;
+    width: 100%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+  }
+  .box {
+    /* Margin Padding*/
+    margin: auto;
+    padding-top: 0;
+
+    /* Sizing */
+    height: auto;
+    width: 60%;
+  }
+  .content {
+    /* Sizing */
+    height: 100%;
+    width: 100%;
+
+    /* Margin Padding*/
+    margin: auto;
+    padding: 0;
+
+    font-size: auto;
+  }
+  .section {
+    margin: 3rem 0;
+  }
+
+  /* Lessons and Songs*/
+  .grid-songs {
+    display: grid;
+    grid-template-columns: 0.6fr 3fr 0.6fr;
+
+    width: 95%;
+    margin: auto;
+  }
+  .side-filter {
+    margin: auto;
+  }
+  .content-lessons {
+    font-size: 1.3rem;
+  }
+  .content-lessons .lessons-catalog {
+    padding: 1rem auto;
+  }
+
+  .content-lessons .lessons-catalog a {
+    text-decoration: none;
+    color: #444;
+  }
+
+  .content-lessons .lessons-catalog > li {
+    display: block;
+    background: #c3efce;
+
+    /* Margin and padding */
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .content-lessons .lessons-catalog > li:nth-child(even) {
+    background: #c3efef;
+  }
+}
